@@ -93,7 +93,7 @@ const HeroCarousel: React.FC = () => {
 
       {/* Content Overlay */}
       <div className="relative z-10 h-full flex items-center">
-        <div className="container-max">
+        <div className="container-max px-4 sm:px-6 lg:px-8">
           <motion.div
             key={currentSlide}
             initial={{ opacity: 0, y: 50 }}
